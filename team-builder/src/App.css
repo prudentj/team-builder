@@ -1,0 +1,31 @@
+ .App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.team{
+  display: flex;
+  flex-flow: row wrap;
+  align-items:center;
+  justify-content: center;
+  width: 99%;
+}
+
+.person{
+  margin:2%;
+  display: flex;
+  flex-flow: column nowrap;
+}
